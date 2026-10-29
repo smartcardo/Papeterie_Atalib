@@ -80,7 +80,7 @@ const CONFIG = {
   whatsapp: "212697625334",           // [À MODIFIER] sans + et sans 0
   email: "kendy.print2026@gmail.com", // [À MODIFIER]
   address: "Papeterie Atalib (مكتبة الطالب), Kénitra",  // [À MODIFIER] si besoin : adresse affichée
-  mapsUrl: "https://www.google.com/maps?cid=12007483811402189798",   // lien Google Maps du magasin
+  mapsUrl: "https://www.google.com/maps?cid=12007483811402189798",   // ouvre directement la fiche Google Maps du magasin
   mapsEmbed: "https://www.google.com/maps?q=34.2490525,-6.58129&z=17&output=embed",   // carte affichée sur la page (coordonnées du magasin)
   hours: "Ouvert 7j/7",               // [À MODIFIER]
   instagramUrl: "https://www.instagram.com/",  // [À MODIFIER]
@@ -140,7 +140,7 @@ document.getElementById('page').innerHTML=`
     <a class="btn mail" href="mailto:${CONFIG.email}">${I.mail} E-mail</a>
     <a class="btn ig" href="${CONFIG.instagramUrl}" target="_blank" rel="noopener">${I.ig} Instagram</a>
     <a class="btn fb" href="${CONFIG.facebookUrl}" target="_blank" rel="noopener">${I.fb} Facebook</a>
-    <button class="btn save" onclick="saveContact()">${I.plus} Enregistrer le contact</button>
+    <a class="btn save" href="contact.vcf" download="Papeterie-Atalib.vcf">${I.plus} Enregistrer le contact</a>
   </div>
   <section class="group">
     <h2>Nous trouver</h2>

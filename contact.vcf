@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Papeterie Atalib;;;
+FN:Papeterie Atalib
+ORG:Papeterie Atalib
+TITLE:Papeterie - Librairie
+TEL;TYPE=CELL,VOICE:+212697625334
+EMAIL;TYPE=INTERNET,WORK:kendy.print2026@gmail.com
+ADR;TYPE=WORK:;;Kénitra;;;Maroc
+item1.URL:https://www.google.com/maps?cid=12007483811402189798
+item1.X-ABLabel:Localisation
+item2.URL:https://wa.me/212697625334
+item2.X-ABLabel:WhatsApp
+NOTE:Tout pour apprendre\, écrire et réussir
+END:VCARD
